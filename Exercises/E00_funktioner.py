@@ -38,9 +38,9 @@ def train_test_split_simple_regression(data_frame, train_fraction = .7, random_s
 
 def calc_of_statistics_metrics(y_hat, y_test):
     '''Beräknar statistiska metrics över regression fit.'''
-    n = len(y_hat)
-    MAE = 1 / n * sum(abs(y_test - y_hat)) # MAE: Mean Absolute Error
-    MSE = 1 / n * sum((y_test - y_hat)**2) # MSE: Mean Squared Error
+    n = len(y_test)
+    MAE = 1 / n * np.sum(abs(y_hat - y_test)) # MAE: Mean Absolute Error
+    MSE = 1 / n * np.sum((y_hat - y_test)**2) # MSE: Mean Squared Error
     RMSE = np.sqrt(MSE) # Root Mean Squared Error
 
     return MAE, MSE, RMSE
@@ -98,10 +98,3 @@ def calc_y_hat_multiple_regression(beta_hat, X_test):
         y_hat = np.append(y_hat, to_add)
 
     return y_hat
-
-def RMSE_calculation(y_hat, y_test):
-    n = len(y_test)
-    MSE = 1 / n * np.sum((y_hat - y_test)**2) # Mean Squared Error
-    RMSE = 1 / n * np.sqrt(MSE) # Root Mean Squared Error
-    
-    return RMSE
