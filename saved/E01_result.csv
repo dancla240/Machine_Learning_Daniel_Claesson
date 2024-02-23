@@ -1,0 +1,45 @@
+,Method,Features,MAE,MSE,RMSE
+0,LinearRegression,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.486,17.939,4.235
+1,LinearRegression,"['displacement', 'horsepower', 'weight', 'acceleration']",3.51,18.066,4.25
+2,LinearRegression,"['horsepower', 'weight', 'acceleration']",3.506,17.813,4.221
+3,LinearRegression,"['weight', 'acceleration']",3.489,17.657,4.202
+4,LinearRegression,['acceleration'],5.193,40.074,6.33
+5,LinearRegression,['weight'],3.464,17.693,4.206
+6,LinearRegression,"['weight', 'horsepower']",3.506,17.792,4.218
+7,LinearRegression,"['weight', 'horsepower', 'displacement']",3.511,18.014,4.244
+8,LinearRegression,"['weight', 'horsepower', 'displacement', 'cylinders']",3.488,17.892,4.23
+9,LinearRegression,['cylinders'],3.561,21.814,4.671
+10,LinearRegression,['displacement'],3.687,21.227,4.607
+11,LinearRegression,['horsepower'],3.783,22.153,4.707
+12,LinearRegression w scaled data,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.486,17.939,4.235
+13,LinearRegression w scaled data,"['displacement', 'horsepower', 'weight', 'acceleration']",3.51,18.066,4.25
+14,LinearRegression w scaled data,"['horsepower', 'weight', 'acceleration']",3.506,17.813,4.221
+15,LinearRegression w scaled data,"['weight', 'acceleration']",3.489,17.657,4.202
+16,LinearRegression w scaled data,['acceleration'],5.193,40.074,6.33
+17,Polynomial regression 1 deg,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.486,17.939,4.235
+18,Polynomial regression 1 deg,"['displacement', 'horsepower', 'weight', 'acceleration']",3.51,18.066,4.25
+19,Polynomial regression 1 deg,"['horsepower', 'weight', 'acceleration']",3.506,17.813,4.221
+20,Polynomial regression 1 deg,"['weight', 'acceleration']",3.489,17.657,4.202
+21,Polynomial regression 1 deg,['acceleration'],5.193,40.074,6.33
+22,Polynomial regression 2 deg,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.154,17.35,4.165
+23,Polynomial regression 2 deg,"['displacement', 'horsepower', 'weight', 'acceleration']",3.09,16.384,4.048
+24,Polynomial regression 2 deg,"['horsepower', 'weight', 'acceleration']",2.955,15.846,3.981
+25,Polynomial regression 2 deg,"['weight', 'acceleration']",3.089,16.102,4.013
+26,Polynomial regression 2 deg,['acceleration'],5.25,41.473,6.44
+27,Polynomial regression 2 deg,['weight'],3.138,16.689,4.085
+28,Polynomial regression 3 deg,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.485,26.601,5.158
+29,Polynomial regression 4 deg,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",11.757,418.96,20.469
+30,Polynomial regression 5 deg,"['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",8.126,190.21,13.792
+31,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+32,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+33,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+34,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+35,LinearRegression,['weight'],3.464,17.693,4.206
+36,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+37,LinearRegression,['weight'],3.464,17.693,4.206
+38,LinearRegression w scaled data,['weight'],3.464,17.693,4.206
+39,LinearRegression,['weight'],3.4641211922147592,17.693388269545686,4.206350944648542
+40,LinearRegression w scaled data,['weight'],3.4641211922147583,17.69338826954569,4.206350944648543
+41,LinearRegression w scaled data,['weight'],3.4641211922147583,17.69338826954569,4.206350944648543
+42,Polynomial regression 1 deg,['weight'],3.4641211922147592,17.693388269545686,4.206350944648542
+43,Polynomial regression 1 deg,['weight'],3.4641211922147592,17.693388269545686,4.206350944648542
