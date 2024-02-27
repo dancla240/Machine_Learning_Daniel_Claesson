@@ -34,3 +34,12 @@
 32,LinearRegression,['weight'],3.4641211922147592,17.693388269545686,4.206350944648542
 33,LinearRegression w scaled data,['weight'],3.4641211922147583,17.69338826954569,4.206350944648543
 34,Polynomial regression 1 deg,['weight'],3.4641211922147592,17.693388269545686,4.206350944648542
+35,"Ridge Regression, Alpha=0.001, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.4860493384760467,17.939114758576903,4.235459214604351
+36,"Ridge Regression, Alpha=0.01, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.4853054480200134,17.938581461289722,4.235396257883047
+37,"Ridge Regression, Alpha=0.1, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.477738875544741,17.93172477211098,4.234586729789695
+38,"Ridge Regression, Alpha=0.25, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.46491831453905,17.91638732559397,4.2327753691394925
+39,"Ridge Regression, Alpha=0.5, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.44390761523442,17.887270863993635,4.229334565152494
+40,"Ridge Regression, Alpha=0.75, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.424621176529366,17.859118767433202,4.226005060034027
+41,"Ridge Regression, Alpha=0.9, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.414042886822236,17.84362874908634,4.224171960169985
+42,"Ridge Regression, Alpha=0.95, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.4105975518418457,17.838728491916065,4.223591894574577
+43,"Ridge Regression, Alpha=0.99, scaled X","['cylinders', 'displacement', 'horsepower', 'weight', 'acceleration']",3.407870635868544,17.8349034187547,4.223139048001462
