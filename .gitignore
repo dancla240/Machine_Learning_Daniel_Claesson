@@ -1,3 +1,6 @@
+# folders and files manually added to be ignored:
+/saved
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
