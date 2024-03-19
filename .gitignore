@@ -1,5 +1,10 @@
 # folders and files manually added to be ignored:
 /saved
+/data/movies.csv
+/data/ratings.csv
+/data/tags.csv
+/Lab/Lab_1_production_model_svc_df1.joblib
+/Lab/Lab_1_production_model_svc_df2.joblib
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
